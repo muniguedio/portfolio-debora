@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforme Seu Corpo, Mude Sua Vida | Personal Trainer Online</title>
+    <!-- Tailwind CSS CDN - Usado apenas para classes utilitárias no HTML, a maioria do estilo customizado está no CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        
+    </style>
+</head>
+<body class="bg-rose-blush antialiased">
+
+    <!-- (Header e Conteúdo Principal) -->
+    <section class="hero-section">
+        <!-- Slideshow de Imagens de Fundo -->
+        <div class="slideshow-container">
+            <div class="slideshow-image"></div>
+            <div class="slideshow-image"></div>
+            <div class="slideshow-image"></div>
+        </div>
+
+        <!-- Overlay Escuro -->
+        <div class="overlay"></div>
+
+        <!-- Container para o Header e Conteúdo Hero -->
+        <div class="content-wrapper">
+            <!-- Header (Navbar) -->
+            <header class="navbar" >
+                <!-- Logo -->
+                <a href="#" class="flex items-center space-x-2">
+                    <!-- Ícone Placeholder para o logo. Pode ser substituído por um SVG mais elaborado. -->
+                    <svg class="logo-svg w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L1 21h22L12 2zm0 4.14L3.86 19h16.28L12 6.14zM12 9a3 3 0 100 6 3 3 0 000-6z"></path>
+                    </svg>
+                    <span class="text-white font-heading text-xl font-bold logo-text">Debora Custodia</span>
+                </a>
+
+                <!-- Links de Navegação -->
+                <nav class="space-x-8 nav-links font-body">
+                    <a href="#" class="hover:underline">Planos</a>
+                    <a href="#" class="hover:underline">Afiliados</a>
+                    <a href="#" class="hover:underline">Parceiros</a>
+                    <a href="#" class="hover:underline">Loja</a>
+                </nav>
+
+                <!-- Botão Área de Alunos -->
+                <div>
+                    <a href="#" class="btn-alunos">
+                        Área de Alunos
+                    </a>
+                </div>
+            </header>
+
+            <!-- Conteúdo Principal da Hero Section -->
+            <div class="hero-content text-white">
+                <h1 class="text-4xl md:text-6xl font-heading font-bold leading-tight mb-4 max-w-4xl">
+                    O Corpo dos Seus Sonhos Começa Hoje!
+                </h1>
+                <p class="text-lg md:text-xl font-body mb-8 max-w-3xl">
+                    Já são mais dex alunos transformados. Seja você iniciante ou fanático por musculação, o meu treino é a escolha certa para você!
+                </p>
+                <a href="#planos" class="inline-block bg-violet-blue text-white font-heading font-bold py-4 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300 transform hover:scale-105 btn-main">
+                    Nossos Planos <span class="ml-2">&gt;</span>
+                </a>
+
+                <!-- Plataformas apoiadas (simulação da área inferior, como no exemplo) -->
+                <div class="mt-20 text-gray-400 font-body text-sm">
+                    <p class="mb-4">Nossa plataforma é apoiada por:</p>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <!-- Ícones/Logos de empresas parceiras (texto simples como placeholder) -->
+                        <span class="opacity-70">????</span>
+                        <span class="opacity-70">????</span>
+                        <span class="opacity-70">????</span>
+                        <span class="opacity-70">????</span>
+                        <span class="opacity-70">????</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exemplo da Próxima Seção para mostrar a conexão visual -->
+      <section class="treinos-genericos">
+    <div class="container">
+        <div class="conteudo-texto">
+            <h2>Chega de treinos genéricos</h2>
+            <p>
+                Não perca mais tempo com planos de treino que não se encaixam nas suas necessidades. Oferecemos programas personalizados, criados por especialistas, para você alcançar seus objetivos de forma inteligente e eficiente. Diga adeus aos resultados medíocres e comece a treinar para valer.
+            </p>
+            <p>
+                Nossos programas são adaptados ao seu corpo, sua rotina e seus objetivos. Seja você um iniciante ou um atleta experiente, temos o plano perfeito para transformar seu corpo e sua saúde.
+            </p>
+            <a href="#comece-agora" class="btn-cta">
+                Comece seu treino
+                <i class="fas fa-arrow-right"></i> </a>
+        </div>
+
+        <div class="galeria-imagens">
+            <div class="imagem-wrapper">
+                <img src="imagens/imagem3.jpg" alt="Pessoa sorrindo durante o exercício" class="imagem-grande-top">
+            </div>
+            <div class="imagem-wrapper">
+                <img src="imagens/imagem1.jpg" alt="Grupo de pessoas treinando juntas" class="imagem-media">
+            </div>
+            <div class="imagem-wrapper">
+                <img src="imagens/imagem2.jpg" alt="Treinamento de alta intensidade" class="imagem-pequena">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- OQUE VOCE ENCONTRA AKI -->
+ <section class="app-info-section">
+    <div class="container">
+        <!-- Coluna da Esquerda: Texto e Lista de Recursos -->
+        <div class="conteudo-info-app">
+            <p class="pre-titulo">Seu Treino na Palma da Mão</p>
+            <h2>O que você encontra no nosso app?</h2>
+            
+            <div class="lista-recursos">
+                <div class="recurso-item">
+                    <div class="icone-recurso">💪</div> <!-- Ícone ou emoji -->
+                    <p><strong>Treinos Personalizados:</strong> Planos adaptados aos seus objetivos e nível de condicionamento.</p>
+                </div>
+                <div class="recurso-item">
+                    <div class="icone-recurso">📊</div> <!-- Ícone ou emoji -->
+                    <p><strong>Acompanhamento de Progresso:</strong> Registre seus treinos e veja sua evolução diária.</p>
+                </div>
+                <div class="recurso-item">
+                    <div class="icone-recurso">💬</div> <!-- Ícone ou emoji -->
+                    <p><strong>Chat com Especialistas:</strong> Tire suas dúvidas e receba orientação a qualquer momento.</p>
+                </div>
+                <div class="recurso-item">
+                    <div class="icone-recurso">🍏</div> <!-- Ícone ou emoji -->
+                    <p><strong>Dicas de Nutrição:</strong> Sugestões para complementar seu treino e otimizar resultados.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coluna da Direita: Imagem/Mockup do App -->
+        <div class="mockup-app">
+            <!-- Usaremos uma imagem placeholder que simula um screenshot de app -->
+            <img src="imagens/muie.png" alt="Interface do aplicativo de treinos" class="app-screenshot">
+        </div>
+    </div>
+</section>
+  <!-- QUEM SOU EU? -->
+<section class="help-center-section">
+    <div class="container-full-width">
+        <!-- Coluna da Esquerda: Imagem -->
+        <div class="help-image-col">
+            <!-- Imagem de fundo ou decorativa. Usaremos uma imagem placeholder com filtro de cor. -->
+            <img src="imagens/debora.jpg" alt="Pessoas trabalhando juntas em um escritório, representando suporte" class="responsive-image">
+        </div>
+
+        <!-- Coluna da Direita: Conteúdo de Texto -->
+        <div class="help-content-col">
+            <p class="pre-heading">Debora Custodia</p>
+            <h2>Quem sou eu?</h2>
+            <p>
+                Nossa equipe está sempre pronta para auxiliar você em sua jornada de treino. Se tiver dúvidas sobre os exercícios, funcionalidades do app ou precisar de orientação, nosso suporte especializado está a apenas um clique de distância. Conte conosco para alcançar seus resultados.
+            </p>
+            <a href="#centro-de-ajuda" class="btn-help-center">
+                Instagram
+            </a>
+        </div>
+    </div>
+</section>
+<section class="pricing-section">
+        <div class="container">
+            <!-- Cabeçalho da Seção de Preços -->
+            <div class="pricing-header">
+                <h2>Escolha o plano perfeito<br>para a sua jornada</h2>
+                <p>
+                    Não importa seu nível ou objetivo, temos um plano desenhado para você. Comece com o que se encaixa na sua rotina e evolua no seu próprio ritmo.
+                </p>
+            </div>
+
+            <!-- Seletor de período (Mensal/Anual) -->
+            <div class="pricing-toggle">
+                <button class="toggle-btn active" data-period="monthly">Mensal</button>
+                <button class="toggle-btn" data-period="annually">Anual</button>
+            </div>
+
+            <!-- Contêiner dos Cards de Preço -->
+            <div class="pricing-cards-container">
+                <!-- Card 1: Iniciante -->
+                <div class="pricing-card" data-monthly-price="19" data-annually-price="199">
+                    <h3>Iniciante</h3>
+                    <p class="card-description">Comece a treinar hoje</p>
+                    <div class="price">
+                        <span class="price-value">$19</span><span class="currency">USD</span>
+                    </div>
+                    <a href="#buy-starter" class="cta-button">
+                        Começar
+                    </a>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i>Planos de treino básicos</li>
+                        <li><i class="fas fa-check-circle"></i>Acesso a vídeos de exercícios</li>
+                        <li><i class="fas fa-check-circle"></i>Registro de atividades</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Escala (Destaque) -->
+                <div class="pricing-card highlight" data-monthly-price="99" data-annually-price="999">
+                    <div class="badge">
+                        Mais Popular
+                    </div>
+                    <h3>Escala</h3>
+                    <p class="card-description">O mais completo</p>
+                    <div class="price">
+                        <span class="price-value">$99</span><span class="currency">USD</span>
+                    </div>
+                    <a href="#buy-scale" class="cta-button">
+                        Começar Agora
+                    </a>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i>Planos de treino personalizados</li>
+                        <li><i class="fas fa-check-circle"></i>Acompanhamento individual</li>
+                        <li><i class="fas fa-check-circle"></i>Chat com o treinador</li>
+                        <li><i class="fas fa-check-circle"></i>Workshops trimestrais</li>
+                        <li><i class="fas fa-check-circle"></i>Suporte prioritário</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Crescimento -->
+                <div class="pricing-card" data-monthly-price="49" data-annually-price="499">
+                    <h3>Crescimento</h3>
+                    <p class="card-description">Para atletas experientes</p>
+                    <div class="price">
+                        <span class="price-value">$49</span><span class="currency">USD</span>
+                    </div>
+                    <a href="#buy-growth" class="cta-button">
+                        Começar
+                    </a>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i>Planos de treino personalizados</li>
+                        <li><i class="fas fa-check-circle"></i>Acompanhamento individual</li>
+                        <li><i class="fas fa-check-circle"></i>Acesso a vídeos avançados</li>
+                        <li><i class="fas fa-check-circle"></i>Workshops trimestrais</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SEÇÃO DE TESTE GRATIS -->
+     <section class="free-trial-section">
+    <div class="container">
+        <!-- Coluna da Esquerda: Conteúdo de Texto e Chamada -->
+        <div class="content-left">
+            <h2>Comece sua jornada com 15 dias grátis!</h2>
+            <p>
+                Experimente o poder dos treinos personalizados. Preencha o formulário e tenha acesso total ao nosso aplicativo por 15 dias, sem compromisso. É a sua chance de transformar seu corpo e sua saúde.
+            </p>
+            <p class="highlight-text">
+                Sem cartão de crédito. Sem letras miúdas. Apenas resultados.
+            </p>
+        </div>
+
+        <!-- Coluna da Direita: Formulário de Cadastro e Questionário -->
+        <div class="form-right">
+            <form id="freeTrialForm" class="trial-form">
+                <h3>Preencha e comece a treinar!</h3>
+                <div class="form-group">
+                    <label for="name">Seu Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Seu Melhor E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="objective">Qual seu principal objetivo com o treino?</label>
+                    <select id="objective" name="objective" required>
+                        <option value="">Selecione um objetivo</option>
+                        <option value="emagrecimento">Emagrecimento</option>
+                        <option value="ganho-massa">Ganho de massa muscular</option>
+                        <option value="condicionamento">Melhora de condicionamento físico</option>
+                        <option value="saude-geral">Saúde e bem-estar geral</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Qual seu nível de experiência atual?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="beginner" name="experience" value="iniciante" required>
+                        <label for="beginner">Iniciante</label>
+                        
+                        <input type="radio" id="intermediate" name="experience" value="intermediario">
+                        <label for="intermediate">Intermediário</label>
+                        
+                        <input type="radio" id="advanced" name="experience" value="avancado">
+                        <label for="advanced">Avançado</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button">Quero meus 15 dias grátis!</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Seção de FAQ -->
+<section class="faq-section">
+        <div class="container">
+            <h2 class="faq-title">Perguntas Frequentes</h2>
+
+            <div class="faq-accordion">
+                <!-- Item 1 do Acordeão -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        O aplicativo funciona offline?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Sim! Uma vez que você baixa seus treinos e o conteúdo em vídeo, você pode acessá-los mesmo sem conexão com a internet. Perfeito para treinar em qualquer lugar.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 do Acordeão -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Posso cancelar quando quiser?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Com certeza! Não temos fidelidade. Você pode cancelar sua assinatura a qualquer momento, diretamente pelo aplicativo, sem burocracia ou taxas adicionais.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 do Acordeão -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Tenho lesão. O aplicativo considera isso?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Durante sua avaliação inicial, você pode informar sobre qualquer lesão ou condição de saúde. Nossos treinadores personalizarão seu plano para garantir um treino seguro e eficaz, evitando agravamentos.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 do Acordeão (Exemplo Adicional) -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Como faço para entrar em contato com um treinador?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>No plano "Escala" e "Crescimento", você tem acesso direto a um chat com seu treinador pessoal dentro do aplicativo para tirar dúvidas e receber feedback contínuo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-contact">
+                <p>Ainda tem dúvidas?</p>
+                <!-- Substitua 'SEU_NUMERO_WHATSAPP' pelo seu número completo com código do país (ex: 5547999998888) -->
+                <a href="https://wa.me/SEU_NUMERO_WHATSAPP?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20app." target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Dúvidas?
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <p>&copy; 2025 AppFitness. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#termos" class="footer-link">Termos de Uso</a>
+                <a href="#privacidade" class="footer-link">Política de Privacidade</a>
+                <a href="#contato-footer" class="footer-link">Contato</a>
+            </div>
+        </div>
+    </footer>
+</body>
+  <script src="script.js"></script>
+</html>
